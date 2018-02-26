@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2827792043B7DA0026C4BD /* RTHBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2827772043B7DA0026C4BD /* RTHBluetooth.m */; };
+		5E28277A2043B7DA0026C4BD /* CBPeripheral+WriteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2827782043B7DA0026C4BD /* CBPeripheral+WriteData.m */; };
 		5E850FCD204266860002AA2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E850FCC204266860002AA2B /* AppDelegate.m */; };
 		5E850FD0204266860002AA2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E850FCF204266860002AA2B /* ViewController.m */; };
 		5E850FD3204266860002AA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E850FD1204266860002AA2B /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E2827752043B7DA0026C4BD /* RTHBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHBluetooth.h; sourceTree = "<group>"; };
+		5E2827762043B7DA0026C4BD /* CBPeripheral+WriteData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+WriteData.h"; sourceTree = "<group>"; };
+		5E2827772043B7DA0026C4BD /* RTHBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHBluetooth.m; sourceTree = "<group>"; };
+		5E2827782043B7DA0026C4BD /* CBPeripheral+WriteData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+WriteData.m"; sourceTree = "<group>"; };
 		5E850FC8204266860002AA2B /* RTBluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTBluetoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E850FCB204266860002AA2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E850FCC204266860002AA2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E2827742043B7DA0026C4BD /* RTBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				5E2827752043B7DA0026C4BD /* RTHBluetooth.h */,
+				5E2827762043B7DA0026C4BD /* CBPeripheral+WriteData.h */,
+				5E2827772043B7DA0026C4BD /* RTHBluetooth.m */,
+				5E2827782043B7DA0026C4BD /* CBPeripheral+WriteData.m */,
+			);
+			path = RTBluetooth;
+			sourceTree = SOURCE_ROOT;
+		};
 		5E850FBF204266860002AA2B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +75,7 @@
 		5E850FCA204266860002AA2B /* RTBluetoothDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5E2827742043B7DA0026C4BD /* RTBluetooth */,
 				5E850FCB204266860002AA2B /* AppDelegate.h */,
 				5E850FCC204266860002AA2B /* AppDelegate.m */,
 				5E850FCE204266860002AA2B /* ViewController.h */,
@@ -143,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E850FD0204266860002AA2B /* ViewController.m in Sources */,
+				5E2827792043B7DA0026C4BD /* RTHBluetooth.m in Sources */,
 				5E850FDB204266860002AA2B /* main.m in Sources */,
+				5E28277A2043B7DA0026C4BD /* CBPeripheral+WriteData.m in Sources */,
 				5E850FCD204266860002AA2B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
